@@ -3,10 +3,10 @@ def mersenne(a):
     c = 1
     d = 2
     
-    while b < c:
+    while c < b:
         c = 2*c
     if b == c:
-        while (a/d) != int(a/d) and d < a:
+        while (z/d) != int(a/d) and d < a:
             d = d + 1
         if d == a:
             return True
@@ -22,8 +22,8 @@ x = input(print("How many perfect numbers do you want printed?" ))
 
 x = int(x)
 while y < x:
+    z = z + 1
     if mersenne(z) == True:
-        print(z * (z + 1)/2)
+        print(int(z * (z + 1)/2))
         y = y + 1
-    else:
-        z = z + 1
+
