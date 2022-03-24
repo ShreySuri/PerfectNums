@@ -6,7 +6,7 @@ def mersenne(a):
     while c < b:
         c = 2*c
     if b == c:
-        while (z/d) != int(a/d) and d < a:
+        while (a/d) != int(a/d) and d < a:
             d = d + 1
         if d == a:
             return True
